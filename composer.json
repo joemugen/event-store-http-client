@@ -16,14 +16,21 @@
     "prooph"
   ],
   "prefer-stable": true,
+  "repositories": [
+    {
+      "name": "prooph/event-store",
+      "type": "git",
+      "url": "https://github.com/joemugen/event-store"
+    }
+  ],
   "require": {
-    "php": "^7.4",
+    "php": "^7.4|^8.0",
     "ext-json": "*",
     "php-http/discovery": "^1.9.1",
     "php-http/httplug": "^2.2",
     "php-http/message": "^1.8.0",
     "php-http/message-factory": "^1.0.2",
-    "prooph/event-store": "dev-master"
+    "prooph/event-store": "dev-feature/php8-support"
   },
   "require-dev": {
     "phpspec/prophecy": "^1.11.1",

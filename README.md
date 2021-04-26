@@ -1,6 +1,6 @@
 # Prooph Event Store HTTP Client
 
-PHP 7.2 Event Store HTTP Client Implementation.
+PHP 7.4/8.0 Event Store HTTP Client Implementation.
 
 [![Build Status](https://travis-ci.org/prooph/event-store-http-client.svg?branch=master)](https://travis-ci.org/prooph/event-store-http-client)
 [![Coverage Status](https://coveralls.io/repos/github/prooph/event-store-http-client/badge.svg?branch=master)](https://coveralls.io/github/prooph/event-store-http-client?branch=master)
